@@ -56,7 +56,7 @@ export default function AlbumGallery({ onPurchaseClick }: AlbumGalleryProps) {
   }
 
   return (
-    <section ref={ref} className="min-h-screen bg-gradient-to-b from-black to-dark-charcoal py-20 px-4">
+    <section ref={ref} className="min-h-screen global-background py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

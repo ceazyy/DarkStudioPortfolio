@@ -32,42 +32,42 @@ export class MemStorage implements IStorage {
         genre: "Electronic",
         price: "24.99",
         year: "2024",
-        coverImage: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/333333/ffffff?text=NEON+DREAMS"
       },
       {
         title: "CYBER NIGHTS",
         genre: "Synthwave",
         price: "19.99",
         year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/444444/ffffff?text=CYBER+NIGHTS"
       },
       {
         title: "DIGITAL VOID",
         genre: "Ambient",
         price: "22.99",
         year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/555555/ffffff?text=DIGITAL+VOID"
       },
       {
         title: "RETRO FUTURE",
         genre: "Synthpop",
         price: "26.99",
         year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/666666/ffffff?text=RETRO+FUTURE"
       },
       {
         title: "ELECTRIC DREAMS",
         genre: "Electronic",
         price: "21.99",
         year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/777777/ffffff?text=ELECTRIC+DREAMS"
       },
       {
         title: "MACHINE SOUL",
         genre: "Industrial",
         price: "23.99",
         year: "2021",
-        coverImage: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=800&fit=crop&crop=center"
+        coverImage: "https://via.placeholder.com/800x800/888888/ffffff?text=MACHINE+SOUL"
       }
     ];
 

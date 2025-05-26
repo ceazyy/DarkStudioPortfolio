@@ -82,6 +82,14 @@
     background-attachment: fixed;
   }
 
+  .global-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                      url('/pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
   .checkout-overlay {
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.9);

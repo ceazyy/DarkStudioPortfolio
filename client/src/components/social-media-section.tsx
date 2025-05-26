@@ -6,7 +6,7 @@ export default function SocialMediaSection() {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section ref={ref} className="min-h-screen bg-dark-charcoal flex items-center justify-center px-4">
+    <section ref={ref} className="min-h-screen global-background flex items-center justify-center px-4">
       <div className="text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
