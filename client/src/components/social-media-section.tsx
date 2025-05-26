@@ -12,7 +12,7 @@ export default function SocialMediaSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-orbitron font-bold mb-16 glow-text"
+          className="text-4xl md:text-5xl font-orbitron font-bold mb-16 text-white"
         >
           CONNECT
         </motion.h2>
@@ -27,9 +27,9 @@ export default function SocialMediaSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="glow-icon transition-all duration-300 hover:scale-110"
+              className="transition-all duration-300 hover:scale-110"
             >
-              <social.icon className="text-6xl md:text-7xl lg:text-8xl text-white hover:text-glow-green transition-colors duration-300" />
+              <social.icon className="text-6xl md:text-7xl lg:text-8xl text-white hover:text-gray-300 transition-colors duration-300" />
             </motion.a>
           ))}
         </div>

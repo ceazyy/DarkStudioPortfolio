@@ -8,23 +8,18 @@ import {
 export const SOCIAL_LINKS = [
   {
     name: "Spotify",
-    url: "https://spotify.com/artist/synthwave",
+    url: "https://open.spotify.com/artist/3aObXEfeeiy0gwHq8fCRxQ?si=vvXGz1_KT5yScJMslP_rIQ&nd=1&dlsi=6a68a90473b04ff5",
     icon: SiSpotify,
   },
   {
     name: "SoundCloud", 
-    url: "https://soundcloud.com/synthwave",
+    url: "https://soundcloud.com/ceazytechno",
     icon: SiSoundcloud,
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/synthwave",
+    url: "https://www.instagram.com/ceazy_techno/",
     icon: SiInstagram,
-  },
-  {
-    name: "YouTube",
-    url: "https://youtube.com/c/synthwave",
-    icon: SiYoutube,
   },
 ];
 

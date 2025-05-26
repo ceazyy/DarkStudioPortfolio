@@ -32,42 +32,42 @@ export class MemStorage implements IStorage {
         genre: "Electronic",
         price: "24.99",
         year: "2024",
-        coverImage: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
+        coverImage: "https://picsum.photos/800/800?random=1"
       },
       {
         title: "CYBER NIGHTS",
         genre: "Synthwave",
         price: "19.99",
         year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
+        coverImage: "https://picsum.photos/800/800?random=2"
       },
       {
         title: "DIGITAL VOID",
         genre: "Ambient",
         price: "22.99",
         year: "2023",
-        coverImage: "https://pixabay.com/get/ge6ae40bcdc1304c1b6564df8263c6ea3458fd3683011da18a6d3c0a4ddb51163a9ae7e08217d6a6f630900e58f2f5c248ca66676053af0c4114f504d0a3515f6_1280.jpg"
+        coverImage: "https://picsum.photos/800/800?random=3"
       },
       {
         title: "RETRO FUTURE",
         genre: "Synthpop",
         price: "26.99",
         year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
+        coverImage: "https://picsum.photos/800/800?random=4"
       },
       {
         title: "ELECTRIC DREAMS",
         genre: "Electronic",
         price: "21.99",
         year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
+        coverImage: "https://picsum.photos/800/800?random=5"
       },
       {
         title: "MACHINE SOUL",
         genre: "Industrial",
         price: "23.99",
         year: "2021",
-        coverImage: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
+        coverImage: "https://picsum.photos/800/800?random=6"
       }
     ];
 

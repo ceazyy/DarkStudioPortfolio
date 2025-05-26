@@ -72,30 +72,11 @@
     font-family: 'Orbitron', monospace;
   }
 
-  .glow-text {
-    text-shadow: 0 0 10px hsl(var(--glow-green)), 
-                 0 0 20px hsl(var(--glow-green)), 
-                 0 0 30px hsl(var(--glow-green));
-  }
 
-  .glow-text:hover {
-    text-shadow: 0 0 15px hsl(var(--glow-green)), 
-                 0 0 30px hsl(var(--glow-green)), 
-                 0 0 45px hsl(var(--glow-green)), 
-                 0 0 60px hsl(var(--glow-green));
-  }
-
-  .glow-icon {
-    filter: drop-shadow(0 0 8px hsl(var(--glow-green)));
-  }
-
-  .glow-icon:hover {
-    filter: drop-shadow(0 0 15px hsl(var(--glow-green)));
-  }
 
   .hero-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                      url('https://pixabay.com/get/gce7cd8224303744291985266c4660038e9490b909ce65661025c845e6c4d44f10ba64a0c473d3f211d4cfd48f5a7078443b4e1fe97ed5a7697e7ec4fe50c08bd_1280.jpg');
+                      url('/pic.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

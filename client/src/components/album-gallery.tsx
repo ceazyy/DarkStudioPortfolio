@@ -62,7 +62,7 @@ export default function AlbumGallery({ onPurchaseClick }: AlbumGalleryProps) {
           initial={{ opacity: 0, y: 30 }}
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-orbitron font-bold text-center mb-16 glow-text"
+          className="text-4xl md:text-5xl font-orbitron font-bold text-center mb-16 text-white"
         >
           DISCOGRAPHY
         </motion.h2>
