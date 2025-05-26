@@ -1,4 +1,4 @@
-import type { Express } from "express";
+import type { Express, Request, Response } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertOrderSchema } from "@shared/schema";
@@ -6,7 +6,7 @@ import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Get all albums
-  app.get("/api/albums", async (req, res) => {
+  app.get("/api/albums", async (_req: Request, res: Response) => {
     try {
       const albums = await storage.getAllAlbums();
       res.json(albums);
@@ -16,7 +16,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Get single album
-  app.get("/api/albums/:id", async (req, res) => {
+  app.get("/api/albums/:id", async (req: Request, res: Response) => {
     try {
       const id = parseInt(req.params.id);
       if (isNaN(id)) {
@@ -35,7 +35,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Create order
-  app.post("/api/orders", async (req, res) => {
+  app.post("/api/orders", async (req: Request, res: Response) => {
     try {
       const validatedData = insertOrderSchema.parse(req.body);
       
@@ -59,7 +59,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Get order by ID
-  app.get("/api/orders/:id", async (req, res) => {
+  app.get("/api/orders/:id", async (req: Request, res: Response) => {
     try {
       const id = parseInt(req.params.id);
       if (isNaN(id)) {
