@@ -74,8 +74,25 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <HeroSection />
-      <AlbumGallery onPurchaseClick={handlePurchaseClick} />
+      <AlbumGallery 
+        onPurchaseClick={handlePurchaseClick} 
+        onAddToCart={handleAddToCart}
+      />
       <SocialMediaSection />
+      
+      <CartButton
+        itemCount={totalCartItems}
+        onClick={() => setIsCartOpen(true)}
+      />
+      
+      <Cart
+        isOpen={isCartOpen}
+        onClose={() => setIsCartOpen(false)}
+        cartItems={cartItems}
+        onRemoveItem={handleRemoveFromCart}
+        onUpdateQuantity={handleUpdateQuantity}
+        onCheckout={handleCartCheckout}
+      />
       
       {checkoutAlbum && (
         <CheckoutModal
