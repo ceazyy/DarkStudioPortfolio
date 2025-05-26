@@ -15,7 +15,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
-    "types": ["node", "express"],
+    "types": ["node", "express", "vite/client"],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
@@ -23,7 +23,6 @@
       "@shared/*": ["shared/*"]
     }
   },
-  "include": ["src", "server", "shared"],
-  "exclude": ["vite.config.ts"],
+  "include": ["src", "server", "shared", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
