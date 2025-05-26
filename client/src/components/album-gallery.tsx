@@ -89,14 +89,14 @@ export default function AlbumGallery({ onPurchaseClick, onAddToCart }: AlbumGall
                 ${album.price}
               </div>
               <div className="mt-6 text-center">
-                <h3 className="text-xl font-orbitron font-bold mb-2">{album.title}</h3>
-                <p className="text-gray-400">{album.year} • {album.genre}</p>
+                <h3 className="text-xl font-orbitron font-bold mb-2 text-white drop-shadow-lg">{album.title}</h3>
+                <p className="text-white/80 drop-shadow-lg">{album.year} • {album.genre}</p>
                 <div className="flex gap-2 mt-4 justify-center">
                   <Button
                     onClick={() => onAddToCart(album)}
                     variant="outline"
                     size="sm"
-                    className="bg-transparent border-white text-white hover:bg-white hover:text-black"
+                    className="bg-black/60 backdrop-blur border-white text-white hover:bg-white hover:text-black"
                   >
                     <ShoppingCart className="w-4 h-4 mr-2" />
                     Add to Cart
