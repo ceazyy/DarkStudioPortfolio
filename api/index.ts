@@ -54,4 +54,11 @@ app.use((err: Error & { status?: number; statusCode?: number }, _req: Request, r
 registerRoutes(app);
 
 // Export the Express app as a serverless function
-export default app; 
+export default app;
+
+// Add Vercel serverless function handler
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+}; 

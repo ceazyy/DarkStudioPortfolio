@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["node", "express"],
+    "outDir": "../dist/api",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["../client/src/*"],
+      "@shared/*": ["../shared/*"]
+    }
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+} 
