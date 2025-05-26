@@ -5,6 +5,7 @@ import CheckoutModal from "@/components/checkout-modal";
 import ConfirmationModal from "@/components/confirmation-modal";
 import Cart from "@/components/cart";
 import CartButton from "@/components/cart-button";
+import UpcomingAlbumPreview from "@/components/UpcomingAlbumPreview";
 import { useState } from "react";
 import type { Album } from "@shared/schema";
 
@@ -74,6 +75,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <HeroSection />
+      <UpcomingAlbumPreview />
       <AlbumGallery 
         onPurchaseClick={handlePurchaseClick} 
         onAddToCart={handleAddToCart}
