@@ -27,7 +27,11 @@ export const orders = pgTable("orders", {
 });
 
 export const insertAlbumSchema = createInsertSchema(albums);
-export const insertOrderSchema = createInsertSchema(orders).omit({ id: true, createdAt: true });
+export const insertOrderSchema = createInsertSchema(orders)
+  .omit({ id: true, createdAt: true })
+  .extend({
+    albumId: z.number()
+  });
 
 export type Album = typeof albums.$inferSelect;
 export type InsertAlbum = z.infer<typeof insertAlbumSchema>;
